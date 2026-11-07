@@ -1,28 +1,28 @@
 class GitComposeCommit < Formula
   desc "Compose structured Git commit messages"
   homepage "https://github.com/demerphq/git-compose-commit"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.0/git-compose-commit-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0ad033ebbe55ab48adf57092e9f512abb578a41a16e682b152e98d2e0c7d19bb"
+      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.1/git-compose-commit-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e10f34acb1a6535b548f3947052fb7610226e85282bde4bc0b2aa0f716f7c321"
     end
     on_arm do
-      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.0/git-compose-commit-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f602f7a250c755a1d2a893d22f977d8b0be3f8d68482dee278b23c1cd57152be"
+      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.1/git-compose-commit-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e334394924831812a34584b191d1880cfdd3281b0f8333fa43cee226f9cf7fe2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.0/git-compose-commit-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4f18ac445c2605c11c8fd990ff04cd98dd7bf20f24b8ac9022654fb01b986bc7"
+      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.1/git-compose-commit-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5426a2c9fd20841dba06f265dcdca8b1dff758880515aefd5f4f9ed0f0368699"
     end
     on_arm do
-      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.0/git-compose-commit-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a626a8cf5e181583a6674df020de9dc90a33df51955cd3f99c62bd75470958c0"
+      url "https://github.com/demerphq/git-compose-commit/releases/download/v0.2.1/git-compose-commit-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "95e575275e35f32c4d42b23d3ca953cb1ab76cd4929137d7c78ac27cac3afcc6"
     end
   end
 
